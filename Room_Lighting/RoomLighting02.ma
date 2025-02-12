@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: RoomLighting02.ma
-//Last modified: Fri, Feb 07, 2025 02:34:05 PM
+//Last modified: Fri, Feb 07, 2025 03:01:00 PM
 //Codeset: 1252
 requires maya "2025ff03";
 requires "stereoCamera" "10.0";
@@ -13,20 +13,20 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202409190603-cbdc5a7e54";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "54018E41-4DE8-D7A8-94B0-89AD3A80E95D";
+fileInfo "UUID" "277D61BE-4014-326A-0E02-4D82743EE674";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "C312A254-4F18-973B-AC25-E6B402655C8C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 25.468301277419194 15.748445203255766 12.856210951108963 ;
-	setAttr ".r" -type "double3" -23.999999999995964 49.199999999979667 0 ;
+	setAttr ".t" -type "double3" 14.909450294111499 8.9896752605918504 9.9625258558174821 ;
+	setAttr ".r" -type "double3" -17.999999999919268 1130.7999999993785 0 ;
 	setAttr ".rpt" -type "double3" 3.5035062516083129e-14 2.981209434279424e-15 4.3225509156189407e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "51E9AD0D-4C8C-ABFF-46F3-4F80252F2F8C";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 31.29461050844197;
+	setAttr ".coi" 18.178028921506144;
 	setAttr ".ow" 26.372184618420842;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -52484,7 +52484,7 @@ createNode pointLight -n "WallLightShape1" -p "WallLight1";
 	rename -uid "F587E1C4-446D-D1DE-25ED-FAA8F346B73F";
 	setAttr -k off ".v";
 	setAttr ".cl" -type "float3" 0.33999997 0.57385987 1 ;
-	setAttr ".in" 6.2087912559509277;
+	setAttr ".in" 4.7527470588684082;
 	setAttr ".us" no;
 createNode transform -n "Flashlight1";
 	rename -uid "4BB111C2-4768-A627-E5BB-F28E0BF0BE20";
